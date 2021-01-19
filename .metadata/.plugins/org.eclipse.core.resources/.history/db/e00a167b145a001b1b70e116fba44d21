@@ -1,0 +1,18 @@
+package com.cos.interexam.config;
+
+import lombok.Data;
+
+@Data
+public class CommonDto<T> {
+	public int statusCode;
+	public T data;
+	
+	public CommonDto(int statusCode, T data) {
+		super();
+		this.statusCode = statusCode;
+		this.data = data;
+	}
+	
+	
+	
+}

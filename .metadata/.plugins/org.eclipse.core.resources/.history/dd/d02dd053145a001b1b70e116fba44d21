@@ -1,0 +1,6 @@
+package com.cos.interexam.domain;
+
+public class InsertReqDto {
+	private String title;
+	private double rating;
+}
